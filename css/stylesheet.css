@@ -1,0 +1,33 @@
+h1, h2, h3, p {
+    font-family: monospace;
+}
+
+body {
+    /* Is #121212 ok with border colors?? */
+    background-color: #121212; 
+    /* background-color: #111C18;  */
+}
+
+.main-text {
+    color: #E0E0E0;
+}
+
+.secondary-text-one {
+    color: #BB86FC;
+}
+
+.secondary-text-two {
+    color: #03DAC6
+}
+
+.surface-color {
+    color: #1E1E1E;
+}
+
+.highlighted-borders {
+    color: #71CEAD;
+}
+
+.borders-general {
+    color: #353D31;
+}
