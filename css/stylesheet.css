@@ -1,33 +1,49 @@
-h1, h2, h3, p {
+h1, h2, h3, p, td {
     font-family: monospace;
 }
 
 body {
-    /* Is #121212 ok with border colors?? */
     background-color: #121212; 
+    /* Alternate Background Color */
     /* background-color: #111C18;  */
 }
 
-.main-text {
-    color: #E0E0E0;
+/* Space between the borders of the table. */
+table {
+    border-spacing: 5px;
 }
 
-.secondary-text-one {
-    color: #BB86FC;
+/* Add borders, radius and transition for the table data - NAV and MAIN content. */
+td {
+    border: 2px solid #353D31;
+    border-radius: 5px;
+    transition: all .3s ease;
 }
 
-.secondary-text-two {
-    color: #03DAC6
+/* td:hover to change to other color. */
+td:hover {
+    border: 2px solid #71CEAD;
 }
 
-.surface-color {
-    color: #1E1E1E;
+td, th {
+    color: #03DAC6;
 }
 
-.highlighted-borders {
-    color: #71CEAD;
+/* Wrap the whole thing in a container of flex to center it. */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.borders-general {
-    color: #353D31;
+.table-nav {
+    height: 1000px;
+    width: 100px;
+    text-align: center;
+}
+
+.table-main {
+    height: 1000px;
+    width: 600px;
+    text-align: center;
 }
